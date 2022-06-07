@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>VICMOVE</title>
+    <title>Age of Action</title>
 
     <!-- seo tag -->
     <meta name="description"
@@ -15,7 +15,7 @@
     <meta name="author" content="VICMOVE">
 
 
-    <meta property="og:title" content="Top Move To Earn NFT Game on BSC - VICMOVE">
+    <meta property="og:title" content="Top Move To Earn NFT Game on BSC - Age of Action">
     <meta property="og:type" content="website" />
     <meta property="og:description" content="VICMOVE - The Best Move to Earn NFT Game">
     <meta property="og:image" content="assets/images/facebook.png?v=10">
@@ -25,9 +25,9 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@VICMOVEOfficial">
     <meta name="twitter:creator" content="@VICMOVEOfficial">
-    <meta name="twitter:title" content="VICMOVE - The Best Move to Earn NFT Game">
+    <meta name="twitter:title" content="Age of Action - The Best Move to Earn NFT Game">
     <meta name="twitter:description"
-          content="VICMOVE is a web3 fitness and lifestyle mobile app with inbuilt NFT gaming and Social-fi elements where you can earn rewards in Crypto/NFTs just by movement like walking, running and cycling.">
+          content="Age of Action is a web3 fitness and lifestyle mobile app with inbuilt NFT gaming and Social-fi elements where you can earn rewards in Crypto/NFTs just by movement like walking, running and cycling.">
     <meta name="twitter:image" content="assets/images/twitter.png?v=10">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/favicon/apple-touch-icon.png') }}">
@@ -67,7 +67,7 @@
         <div class="header__wrapper">
             <div class="header__logo">
                 <a href="/">
-                    <img src="{{ asset('assets/images/footer-logo.png') }}" alt="logo">
+                    <!-- <img src="{{ asset('assets/images/footer-logo.png') }}" alt="logo"> -->
                 </a>
             </div>
             <div class="header__nav" style="margin: auto 0;">
@@ -95,7 +95,40 @@
     </div>
 </header>
 <!--header section end-->
-
+<!--screenshot section start-->
+<section class="screenshot mt-5" id="preview">
+    <div class="screenshot__wrapper">
+        <div class="container">
+            <div class="screenshot__info">
+                <h2 class="section-heading color-black">Have a look at what’s inside the app.</h2>
+                <div class="screenshot-nav">
+                    <div class="screenshot-nav-prev"><i class="fad fa-long-arrow-left"></i></div>
+                    <div class="screenshot-nav-next"><i class="fad fa-long-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container screenshot-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide screenshot-slide">
+                    <img src="{{ asset('assets/images/phone-01.png') }}" alt="image">
+                </div>
+                <div class="swiper-slide screenshot-slide">
+                    <img src="{{ asset('assets/images/phone-02.png') }}" alt="image">
+                </div>
+                <div class="swiper-slide screenshot-slide">
+                    <img src="{{ asset('assets/images/phone-03.png') }}" alt="image">
+                </div>
+                <div class="swiper-slide screenshot-slide">
+                    <img src="{{ asset('assets/images/phone-04.png') }}" alt="image">
+                </div>
+                <div class="swiper-slide screenshot-slide">
+                    <img src="{{ asset('assets/images/phone-05.png') }}" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--screenshot section end-->
 <!--hero section start-->
 <section class="hero" id="Home">
     <div class="hero__wrapper">
@@ -106,7 +139,7 @@
                         The Best Move to Earn NFT Game
                     </h1>
                     <p class="paragraph">
-                        <span>VICMOVE<sup></sup></span> is a web3 fitness and lifestyle mobile app where you can earn rewards just by movement like walking, running and cycling.
+                        <span>Age of Action<sup></sup></span> is the app that makes all your activities meaningful and practical. All your activities can be rewarded. When running, playing, jumping, swimming... Actively creating games, unleashing creative challenges. So many challenges, so much money.
                     </p>
                     <p class="paragraph2" style="color: #06ADB3; font-size: 20px !important; margin: 30px 0; text-align: center;" onclick="coppyAdd('0x5bcd91C734d665Fe426A5D7156f2aD7d37b76e30')">
                         <span>Contract VIM: <sup></sup></span> 0x5bcd...b76e30 <i class="fas fa-copy"></i>
@@ -158,7 +191,7 @@
 <section class="growth mt-5" id="feature">
     <div class="growth__wrapper">
         <div class="container">
-            <h2 class="section-heading color-black">Unique features that inspire you to run</h2>
+            <h2 class="color-black">iOT connects all these devices together, sharing from the items you have. AOA is built to create a smart city network, smart home, locate objects, detect earthquakes, tsunamis, prevent theft, enhance security or even help farmers in growing crops. farming... AOA is the foundation created to complete challenges, global economic strategies.</h2>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="growth__box">
@@ -166,10 +199,8 @@
                             <i class="fad fa-bolt"></i>
                         </div>
                         <div class="content">
-                            <h3>Energy</h3>
-                            <p class="paragraph dark">A certain amount of energy will be given to you daily to
-                                improve your income
-                                and health</p>
+                            <h3>Walk</h3>
+                            <p class="paragraph dark">Walk make money</p>
                         </div>
                     </div>
                 </div>
@@ -179,10 +210,9 @@
                             <i class="fad fa-shoe-prints"></i>
                         </div>
                         <div class="content">
-                            <h3>Comfort</h3>
+                            <h3>Swimming</h3>
                             <p class="paragraph dark">
-                                The less comfortable you are, shown through Comfort Point, the less pieces of
-                                VICMOVE box you earn
+                                Swimming make money 
                             </p>
                         </div>
                     </div>
@@ -193,10 +223,8 @@
                             <i class="fad fa-star"></i>
                         </div>
                         <div class="content">
-                            <h3>Lucky</h3>
-                            <p class="paragraph dark">A reward range will be given to you, Lucky Point decides how
-                                much or how
-                                little you get</p>
+                            <h3>Dancing</h3>
+                            <p class="paragraph dark">Dancing make money by dancing like a video challenge</p>
                         </div>
                     </div>
                 </div>
@@ -206,9 +234,8 @@
                             <i class="fad fa-vial"></i>
                         </div>
                         <div class="content">
-                            <h3>Stamina</h3>
-                            <p class="paragraph dark">Every Sneaker has an expiration date, as shown by Stamina
-                                Point</p>
+                            <h3>Run</h3>
+                            <p class="paragraph dark">Run for health and make money</p>
                         </div>
                     </div>
                 </div>
@@ -230,10 +257,9 @@
                             <i class="fad fa-atom"></i>
                         </div>
                         <div class="content">
-                            <h3>Fusioning</h3>
+                            <h3>Mission</h3>
                             <p class="paragraph dark">
-                                In the Fusioning feature, you will be able to fusion 2 sneakers and create a whole
-                                new better sneaker
+                             Make mission and complete it to find special items or money in game to charge .
                             </p>
                         </div>
                     </div>
@@ -287,7 +313,7 @@
 <!--feature section start-->
 <section class="feature" id="Roadmap">
     <div class="container">
-        <h2 class="section-heading color-black">VICMOVE Roadmap</h2>
+        <h2 class="section-heading color-black">AOA Roadmap</h2>
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="feature__box feature__box--1">
@@ -377,7 +403,7 @@
 <section class="step" id="app">
     <div class="step__wrapper">
         <div class="container">
-            <h2 class="section-heading color-black">Take your first steps with VICMOVE</h2>
+            <h2 class="section-heading color-black">Take your first steps with Age of Action</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="step__box">
@@ -414,7 +440,7 @@
                         <div class="content">
                             <h3>FUN TO<span>EARN.</span></h3>
                             <p class="paragraph dark">
-                                Earn VICMOVE box pieces or VIM in every step that you make. FIT and FUN at the same
+                                Earn Age of Action box pieces or VIM in every step that you make. FIT and FUN at the same
                                 time
                             </p>
                         </div>
@@ -458,7 +484,7 @@
                 </div>
                 <div class="testimonial">
                     <div class="testimonial__wrapper">
-                        <p>Being a mentor of many projects with huge investment funds, well versed in marketing and markets. Hai Anh is a trusted advisor and visionary for VICMOVE</p>
+                        <p>Being a mentor of many projects with huge investment funds, well versed in marketing and markets. Hai Anh is a trusted advisor and visionary for Age of Action</p>
                         <h4>— HAI ANH (Advisor)</h4>
                     </div>
                 </div>
@@ -483,7 +509,7 @@
                     <div class="testimonial__wrapper">
                         <p>With 10 years of experience working on various technology projects, Tony is an
                             indispensable person in
-                            the development process of VICMOVE.
+                            the development process of Age of Action.
                         </p>
                         <h4>- TONY TRAN (Co-Founder)</h4>
                     </div>
@@ -535,10 +561,10 @@
                                  data-parent="#accordion">
                                 <div class="card-body">
                                     <p class="paragraph">
-                                        Step 1: Download VICMOVE app <br />
+                                        Step 1: Download Age of Action app <br />
                                         Step 2: Register an account and sign in <br />
                                         Step 3: Buy VIM/BNB on Metamask/Pancakeswap <br />
-                                        Step 4: Purchase Vicmove Boxes using VIM or BNB <br />
+                                        Step 4: Purchase Age of Action Boxes using VIM or BNB <br />
 
                                         All set! You are now ready.
                                     </p>
@@ -550,7 +576,7 @@
                                 <h5 class="mb-0 hidden">
                                     <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                                        Where can I download VICMOVE app?
+                                        Where can I download Age of Action app?
                                     </button>
                                 </h5>
                             </div>
@@ -558,7 +584,7 @@
                                  data-parent="#accordion">
                                 <div class="card-body">
                                     <p class="paragraph">
-                                        You can easily download VICMOVE app on Google Play Store and Apple Store
+                                        You can easily download Age of Action app on Google Play Store and Apple Store
                                     </p>
                                 </div>
                             </div>
@@ -576,7 +602,7 @@
                                  data-parent="#accordion">
                                 <div class="card-body">
                                     <p class="paragraph">
-                                        To learn how to Move&Earn with VICMOVE, please see this <a
+                                        To learn how to Move&Earn with Age of Action, please see this <a
                                             href="https://whitepaper.vicmove.com/gameplay" target="_blank"
                                             rel="noreferrer">Gameplay
                                             guide</a>
@@ -613,7 +639,7 @@
                                 <h5 class="mb-0 hidden">
                                     <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
-                                        What are VICMOVE Token (VIM)?
+                                        What are Age of Action Token (VIM)?
                                     </button>
                                 </h5>
                             </div>
@@ -621,7 +647,7 @@
                                  data-parent="#accordion">
                                 <div class="card-body">
                                     <p class="paragraph">
-                                        VIM are VICMOVE's governance token. Please see <a
+                                        VIM are Age of Action's governance token. Please see <a
                                             href="https://whitepaper.vicmove.com/tokenomic" target="_blank"
                                             rel="noreferrer">this guide</a> for an overview of their purpose.
                                     </p>
@@ -653,7 +679,7 @@
                                 <h5 class="mb-0 hidden">
                                     <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
-                                        What's so special about VICMOVE?
+                                        What's so special about Age of Action?
                                     </button>
                                 </h5>
                             </div>
@@ -693,40 +719,7 @@
 
 
 
-<!--screenshot section start-->
-<section class="screenshot mt-5" id="preview">
-    <div class="screenshot__wrapper">
-        <div class="container">
-            <div class="screenshot__info">
-                <h2 class="section-heading color-black">Have a look at what’s inside the app.</h2>
-                <div class="screenshot-nav">
-                    <div class="screenshot-nav-prev"><i class="fad fa-long-arrow-left"></i></div>
-                    <div class="screenshot-nav-next"><i class="fad fa-long-arrow-right"></i></div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-container screenshot-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide screenshot-slide">
-                    <img src="{{ asset('assets/images/phone-01.png') }}" alt="image">
-                </div>
-                <div class="swiper-slide screenshot-slide">
-                    <img src="{{ asset('assets/images/phone-02.png') }}" alt="image">
-                </div>
-                <div class="swiper-slide screenshot-slide">
-                    <img src="{{ asset('assets/images/phone-03.png') }}" alt="image">
-                </div>
-                <div class="swiper-slide screenshot-slide">
-                    <img src="{{ asset('assets/images/phone-04.png') }}" alt="image">
-                </div>
-                <div class="swiper-slide screenshot-slide">
-                    <img src="{{ asset('assets/images/phone-05.png') }}" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--screenshot section end-->
+
 
 
 <!--newsletter section start-->
@@ -767,9 +760,8 @@
                         </div>
                         <div class="footer__info--content">
                             <p class="paragraph dark">
-                                VICMOVE is a web3 fitness and lifestyle mobile app with inbuilt NFT gaming and
-                                Social-fi elements where you can earn rewards in Crypto/NFTs just by movement like
-                                walking, running and cycling.
+                            Age of Action is the app that makes all your activities meaningful and practical. All your activities can be rewarded. 
+                            When running, playing, jumping, swimming... Actively creating games, unleashing creative challenges. So many challenges, so much money.
                             </p>
                             <div class="social">
                                 <ul>
@@ -841,7 +833,7 @@
             </div>
             <div class="row">
                 <div class="footer__copy">
-                    <h6>&copy; VICMOVE</h6>
+                    <h6>&copy; Age of Action</h6>
                 </div>
             </div>
         </div>
